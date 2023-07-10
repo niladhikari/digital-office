@@ -5,6 +5,14 @@
 .primary-color {
   color: rgb(233, 84, 113);
 }
+.icon{
+    width: 70px;
+    margin-bottom: 20px;
+}
+.praimary{
+    background-color: red;
+    color: white;
+}
 /* header style */
 
 /* nav bar style */
@@ -62,10 +70,7 @@
   border-radius: 5px;
   font-weight: bold;
 }
-.praimary{
-    background-color: red;
-    color: white;
-}
+
 
 /* service section style */
 .services-container{
@@ -126,7 +131,32 @@
     border: none;
     box-shadow: 10px 8px 10px gray;
 }
-.box-img{
-    width: 70px;
-    margin-bottom: 20px;
+
+
+/* Phone section style */
+.phone-container{
+    display: flex;
+    justify-content: space-around;
+    width:70%;
+    margin: auto;
+    padding: 20px;
+    background-color:rgba(25, 204, 228, 0.8);
+    border-radius: 10px;
+    margin-top:-30px;
+    align-items: center;
+}
+.phoone-logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.phone-discription{
+    width: 50%;
+}
+.phone-btn{
+    padding: 20px 32px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
 }
