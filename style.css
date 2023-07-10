@@ -73,10 +73,20 @@
 
 
 /* service section style */
+/* .main-container{
+    height: 300vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.10)),
+    url("asset/image/banner1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+} */
 .services-container{
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
     url("asset/image/footer-bg.png");
+    background-blend-mode: overlay;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -140,10 +150,16 @@
     width:70%;
     margin: auto;
     padding: 20px;
-    background-color:rgba(25, 204, 228, 0.8);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.10)),
+    url("asset/image/milad.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
     border-radius: 10px;
     margin-top:-30px;
     align-items: center;
+    margin-bottom: 80px;
 }
 .phoone-logo{
     display: flex;
@@ -159,4 +175,54 @@
     border-radius: 10px;
     cursor: pointer;
     font-weight: bold;
+}
+
+/* blog section style */
+.blog-section{
+    height: 90vh;
+   width: 80%;
+   margin: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.10)),
+    url("asset/image/banner1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    
+}
+.blog-container{ 
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* blog card style */
+.blog-card-container{
+     display: flex;
+     gap: 30px;
+     align-items: center;
+     justify-content: center;
+     margin: auto;
+     
+}
+.blog-card{
+    width: 250px;
+    height: 330px;
+    background-color: rgb(205, 205, 211);
+    box-shadow: 4px 8px 4px gray;
+    border-radius:5px;
+
+}
+.card-img{
+    width: 100%;
+    border-radius:5px;
+}
+.card-caption{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left: 10px;
+}
+.card-discription{
+    margin: 0px 10px 10px 10px;
 }
